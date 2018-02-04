@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Graven - Developpement</title>
+	<meta charset="utf-8">
+
+	<!-- CDN de bootstrap css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- Custom styles.css -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- Fontawesome icons css -->
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+<body>
+
+	<div class="container mybox">
+
+		<!-- Nav bar menu -->
+
+		<ul class="nav justify-content-end">
+			
+			<li class="nav-item">
+				<a class="nav-link active" href="">Accueil</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="">Présentation</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="">Vidéos</a>
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="">Contact</a>
+			</li>
+
+		</ul>
+
+		<!-- Jumbotron -->
+
+		<div class="Jumbotron">
+			
+			<div class="flex-container">
+				<img class="logo rounded-circle" src="images/logo.png">
+				<h1 class="display-4">raven - Développement</h1>
+			</div>
+
+			<p class="lead">Hey bien salut à tous c'est Graven, et bienvenue sur mon site !</p>
+			<p>J'aime bien les NPE ! </p>
+
+		</div>
+
+		<!-- Carousel -->
+
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+			<div class="carousel-inner">
+				
+				<div class="carousel-item">
+					<a href="https://www.youtube.com/watch?v=4lZWkir5TG0" target="_BLANK">
+						<img class="d-block w-100" href="google.com" src="images/minia1.jpg" alt="First slide">
+
+						<div class="carousel-caption d-none d-md-block">
+						    <h5>Faire des layouts en XML sous android</h5>
+						    <p>Tuto android</p>
+						</div>
+
+					</a>
+				</div>
+
+				<div class="carousel-item">
+					<a href="https://www.youtube.com/watch?v=w56ZbRlnyDg" target="_BLANK">
+						<img class="d-block w-100" alt="Second slide" src="images/minia2.jpg">
+					</a>
+				</div>
+
+				<div class="carousel-item active">
+					<a href="https://www.youtube.com/watch?v=ozKBbvysTsE" target="_BLANK">
+						<img class="d-block w-100" src="images/minia3.jpg" alt="Third slide">
+					</a>
+				</div>
+
+			</div>
+
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+
+			</a>
+
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+
+			</a>
+			
+		</div>
+
+		<!-- About -->
+
+		<h1>Présentation</h1>
+
+		<div class="row">
+
+			<div class="col-5">
+				 <iframe width="420" height="315" src="https://www.youtube.com/embed/rGmW8DEvRw4">
+				</iframe> 
+			</div>
+
+			<div class="col-7">
+				
+				<p>Bonjour, Bonsoir,</p>
+				<p>Je me présente je suis Graven, j'ai 18 ans et je suis développeur d'applications android. Passionné par la programmation depuis 4ans+. Vous trouverez sur ma chaine des vidéos en lien avec ce sujet. Voici mes séries</p>
+
+				<div id="accordion">
+
+					<!--- Raspberry -->
+
+					<div class="card">
+
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Raspberry</button>
+							</h5>
+						</div>
+
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+
+							<div class="card-body">
+								Ceci est un test
+							</div>
+
+						</div>
+
+					</div>
+
+					<!-- Apprendre le Java -->
+
+					<div class="card">
+
+						<div class="card-header" id="headingTwo">
+							<a href="" class="btn btn-primary" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Apprendre le Java</a>
+						</div>
+
+						<div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+
+							<div class="card-body">
+								Ceci est un test java
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				
+
+			</div>
+		
+		</div>
+
+		<!-- Videos -->
+
+		<h1>Vidéos</h1>
+
+		<div id="videos" class="flex-container">
+			
+			<div class="card flex-item" style="width: 18rem;">
+			
+				<img class="card-img-top" src="images/minia1.jpg">
+
+				<div class="card-body">
+					<h5 class="card-title">Video cool</h5>
+					<p class="card-text">Ceci est un téskte</p>
+					<a class="btn btn-primary" href="#">Mon bouton</a>
+				</div>
+
+			</div>
+
+			<div class="card flex-item" style="width: 18rem;">
+				
+				<img class="card-img-top" src="images/minia2.jpg">
+
+				<div class="card-body">
+					<h5 class="card-title">Video cool</h5>
+					<p class="card-text">Ceci est un téskte</p>
+					<a class="btn btn-primary" href="#">Mon bouton</a>
+				</div>
+
+			</div>
+
+			<div class="card flex-item" style="width: 18rem;">
+				
+				<img class="card-img-top" src="images/minia3.jpg">
+
+				<div class="card-body">
+					<h5 class="card-title">Video cool</h5>
+					<p class="card-text">Ceci est un texte</p>
+					<a class="btn btn-primary" href="#">Mon bouton</a>
+				</div>
+
+			</div>
+
+			<div class="card flex-item" style="width: 18rem;">
+				
+				<img class="card-img-top" src="images/minia4.jpg">
+
+				<div class="card-body">
+					<h5 class="card-title">Video cool</h5>
+					<p class="card-text">Ceci est un texte</p>
+					<a class="btn btn-primary" href="#">Mon bouton</a>
+				</div>
+
+			</div>
+
+		</div>
+
+		<!-- Contact -->
+
+		<div class="flex-container">
+			
+			<div class="col-7">
+
+				<h1>Contactez nous</h1>
+
+				<form>
+
+					<!-- nom prenom -->
+					<div class="form-group">
+						<label for="pseudo">Pseudo: </label>
+						<input class="form-control" type="text" name="pseudo" id="pseudo" placeholder="Votre Nom & Prenom...">
+					</div>
+						
+					<!-- email -->
+					<div class="form-group">
+						<label for="email">Email: </label>
+						<input class="form-control" type="email" name="email" id="email" placeholder="Votre email...">
+					</div>
+
+					<!-- objet -->
+					<div class="form-group">
+						<label for="email">Objet de la demande: </label>
+						<input class="form-control" type="text" name="object" id="object" placeholder="Votre Demande...">
+					</div>
+
+					<!-- content -->
+
+					<div class="form-group">
+						<label for="email">Email: </label>
+						<textarea class="form-control" name="content" id="content" placeholder="Votre message..." rows="3"></textarea>
+					</div>
+
+					<!-- submit -->
+
+					<button type="submit" class="btn btn-primary" >Envoyer</button>
+
+				</form>
+
+
+		</div>
+
+		<div class="col-5">
+
+			<h1>Actualités</h1>
+
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/fnAUbT05peM"></iframe>
+
+			<p>Rejoignez une communauté de plusieurs milliers de developpeurs sur les differentes plateformes.</p>
+
+			<img class="large-logo img-fluid" src="images/logo.png">
+
+			<ul class="list-group">
+
+				<li class="list-group-item">
+					<a target="_BLANK" href="https://www.youtube.com/user/Gravenilvectuto"><i class="fab fa-youtube"></i> Ma Chaine</a>
+				</li>
+
+				<li class="list-group-item">
+					<a target="_BLANK" href="http://discord.gg/graven"><i class="fab fa-discord"></i> Mon Discord</a>
+				</li>
+
+				<li class="list-group-item">
+					<a target="_BLANK" href="https://twitter.com/gravenilvec"><i class="fab fa-twitter"></i> Mon Twitter</a>
+				</li>
+
+			</ul>
+
+		</div>
+
+		</div>
+
+		<!-- footer -->
+		<footer class="blockquote-footer">Site de <cite class="title">Graven</cite> &copy 2018</footer>
+
+	</div>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

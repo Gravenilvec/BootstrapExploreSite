@@ -1,0 +1,28 @@
+
+img.logo{
+	width: 75px;
+	height: 75px;
+}
+
+img.large-logo{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+.mybox{
+	background-color: #EBEDED;
+	padding: 20px;
+}
+
+.flex-container{	
+	display: flex;
+}
+
+.flex-item{
+	margin: 10px;
+}
+
+footer{
+	margin: 20px;
+}
